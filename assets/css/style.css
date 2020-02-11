@@ -367,7 +367,7 @@ li {
   text-align: center; }
 
 .fondo__precios {
-  background-image: url(asset/img/bg-price.svg);
+  background-image: url(./img/bg-price.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 200%;
