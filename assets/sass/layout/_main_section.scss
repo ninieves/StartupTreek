@@ -1,0 +1,143 @@
+.titulo__precios{
+  text-align: center;
+}
+
+.fondo__precios{
+  background-image: url(/assets/img/bg-price.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200%;
+  width: 100vw;
+  // position: absolute;
+  background-position: center;
+  top: 1200px;
+}
+
+.card { 
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  margin: 30px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container__card {
+  padding: 2px 16px;
+}
+
+/*seccion caracteristicas*/
+.grafico{
+  margin-bottom: 100px;
+  padding: 200px;
+}
+
+.titulo__caracteristicas{
+  text-align: center;
+}
+
+.card ul li {
+  display: block;
+  text-align: left;
+  list-style-type: square;
+}
+
+// .lista{
+//   list-style-type: square;
+// }
+
+.btn {
+  border-radius: 2px;
+  border: none;
+  width: 100%;
+  height: 45px;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color:$BallBlue;
+  color: white;
+  font-size: $medium;
+}
+.texto__card{
+  font-family: $fuente2;
+  font-size: $medium;
+  margin: 0;
+}
+.invisible{
+  visibility: hidden;
+}
+.row{
+  padding: 0;
+}
+// .caracteristicas{
+//   padding-bottom: 300px;
+// }
+@media (min-width: 768px) {
+  .caracteristicas{
+    padding: 40px;
+    
+  }
+  .texto__principal{
+    padding-left: 50px;
+  }
+  .card{
+    width: 85%;
+    text-align: center;
+    padding-left: 0px;
+  }
+    
+    .btn__navbar{  
+    border-radius: 2px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:$BallBlue;
+    color: white;
+    font-size: $medium;
+    
+  }
+  .btn__navbar2{
+    border-radius: 2px;
+  border: none;
+  width: 100px;
+  height: 20px;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color:$White;
+  color:$RaisingBlack;
+  font-size: $medium;
+  }
+  .titulo__estadisticas{
+    text-align: center;
+    }
+
+    .fondo__precios{
+     
+      height: 100vh;
+      width: 100vw;
+      
+    }
+
+}
+
+
+.animation-element{
+  transition:all 500ms linear;
+  transform: translate3d(0px, 10px, 0px);
+  transition-delay: 0.5s;
+  position: relative;
+}
+
+.animation-element .in-view{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
