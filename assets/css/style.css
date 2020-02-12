@@ -1,35 +1,11 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap");
-header {
-  position: relative;
-  margin-bottom: 550px; }
-
-.bg-hero {
-  background-image: url(../img/bg-hero.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  top: 190px;
-  background-position-x: -700px; }
-
-@media (min-width: 768px) {
-  .bg-hero {
-    height: 100vh;
-    width: 100vw;
-    top: 0px;
-    background-position-x: 0px; }
-
-  header {
-    position: relative;
-    margin-bottom: 300px; } }
 /*colores blancos*/
 /*colores coral*/
 /*colores azules*/
 /*colores onyx*/
 /*colores negros*/
 /*tipografias raleway open sans*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap");
 body {
   padding: 0;
   margin: 0; }
@@ -356,6 +332,30 @@ p {
 
   .col-xl-1 {
     grid-column: span 1; } }
+header {
+  position: relative;
+  margin-bottom: 550px; }
+
+.bg-hero {
+  background-image: url(../img/bg-hero.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 190px;
+  background-position-x: -700px; }
+
+@media (min-width: 768px) {
+  .bg-hero {
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    background-position-x: 0px; }
+
+  header {
+    position: relative;
+    margin-bottom: 300px; } }
 .footer {
   background-color: #221d23;
   height: 100px;
