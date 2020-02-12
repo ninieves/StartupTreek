@@ -1,8 +1,37 @@
-.titulo__precios{
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
 }
 
-.fondo__precios{
+.texto__principal {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.caracteristicas {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.titulo__estadisticas {
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+}
+.btn__navbar{
+  cursor: pointer;
+}
+.btn__navbar:hover{
+  background-color: $MiddleBlue;
+}
+
+.titulo__precios {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: $White;
+}
+
+/*.fondo__precios{
   background-image: url(../img/bg-price.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,11 +40,11 @@
   // position: absolute;
   background-position: center;
   top: 1200px;
-}
+}*/
 
-.card { 
+.card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background-color: white;
   margin: 30px;
@@ -23,7 +52,7 @@
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Add some padding inside the card container */
@@ -32,12 +61,12 @@
 }
 
 /*seccion caracteristicas*/
-.grafico{
+.grafico {
   margin-bottom: 100px;
   padding: 200px;
 }
 
-.titulo__caracteristicas{
+.titulo__caracteristicas {
   text-align: center;
 }
 
@@ -50,7 +79,22 @@
 // .lista{
 //   list-style-type: square;
 // }
+img{
+  margin: 0;
+  padding: 0;
 
+}
+.fondo__montanas {
+  width: 100vw;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+}
+.fondo__montanas_color {
+  background-color: $Onyx;
+  margin: 0;
+  padding: 0;
+}
 .btn {
   border-radius: 2px;
   border: none;
@@ -59,39 +103,44 @@
   padding: 0;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color:$BallBlue;
+  background-color: $BallBlue;
   color: white;
+
   font-size: $medium;
 }
-.texto__card{
+
+.btn:hover {
+  background-color: $MiddleBlue;
+}
+
+.texto__card {
   font-family: $fuente2;
   font-size: $medium;
   margin: 0;
 }
-.invisible{
+.invisible {
   visibility: hidden;
 }
-.row{
+.row {
   padding: 0;
 }
 // .caracteristicas{
 //   padding-bottom: 300px;
 // }
 @media (min-width: 768px) {
-  .caracteristicas{
+  .caracteristicas {
     padding: 40px;
-    
   }
-  .texto__principal{
+  .texto__principal {
     padding-left: 50px;
   }
-  .card{
+  .card {
     width: 85%;
     text-align: center;
     padding-left: 0px;
   }
-    
-    .btn__navbar{  
+
+  .btn__navbar {
     border-radius: 2px;
     border: none;
     width: 80px;
@@ -99,45 +148,40 @@
     padding: 0;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color:$BallBlue;
+    background-color: $BallBlue;
     color: white;
     font-size: $medium;
-    
   }
-  .btn__navbar2{
+  .btn__navbar2 {
     border-radius: 2px;
-  border: none;
-  width: 100px;
-  height: 20px;
-  padding: 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background-color:$White;
-  color:$RaisingBlack;
-  font-size: $medium;
+    border: none;
+    width: 100px;
+    height: 20px;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: $White;
+    color: $RaisingBlack;
+    font-size: $medium;
   }
-  .titulo__estadisticas{
+  .titulo__estadisticas {
     text-align: center;
-    }
+  }
 
-    .fondo__precios{
-     
-      height: 100vh;
-      width: 100vw;
-      
-    }
-
+  .fondo__precios {
+    height: 100vh;
+    width: 100vw;
+  }
 }
 
-
-.animation-element{
-  transition:all 500ms linear;
+.animation-element {
+  transition: all 500ms linear;
   transform: translate3d(0px, 10px, 0px);
   transition-delay: 0.5s;
   position: relative;
 }
 
-.animation-element .in-view{
+.animation-element .in-view {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
