@@ -87,6 +87,7 @@ img{
 }
 .fondo__montanas {
   background-image: url(../img/bg-price_2.jpg);
+  background-position: top;
   width: 100vw;
   height: 350px;
   margin: 0;
@@ -133,6 +134,16 @@ img{
 //   padding-bottom: 300px;
 // }
 @media (min-width: 768px) {
+  .fondo__montanas {
+    background-image: url(../img/bg-price_2.jpg);
+    background-position: top;
+    width: 100vw;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
   .fondo__montanas_color {
     background-color: $Onyx;
     height: 100vh;
