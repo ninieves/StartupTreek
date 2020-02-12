@@ -459,7 +459,7 @@ img {
 
 .fondo__montanas_color {
   background-color: #333745;
-  height: 100vh;
+  height: 1000px;
   margin: 0;
   padding: 0; }
 
@@ -490,6 +490,12 @@ img {
   padding: 0; }
 
 @media (min-width: 768px) {
+  .fondo__montanas_color {
+    background-color: #333745;
+    height: 100vh;
+    margin: 0;
+    padding: 0; }
+
   .caracteristicas {
     padding: 40px; }
 
