@@ -72,7 +72,7 @@ p {
   color: black; }
 
 /* Add an active class to highlight the current page */
-.topnav a.active {
+.topnav .a.active {
   background-color: #fff;
   color: #221d23; }
 
