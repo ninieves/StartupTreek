@@ -77,7 +77,8 @@ p {
 .topnav {
   background-color: #fff;
   overflow: hidden;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  grid-column: span 12; }
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -407,7 +408,8 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
-  color: #fff; }
+  color: #fff;
+  border: 0; }
 
 /*.fondo__precios{
   background-image: url(../img/bg-price.svg);
@@ -455,13 +457,15 @@ img {
   width: 100vw;
   height: 350px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  border: 0; }
 
 .fondo__montanas_color {
   background-color: #333745;
   height: 1000px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  border: 0; }
 
 .btn {
   border-radius: 2px;

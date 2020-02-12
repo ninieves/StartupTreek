@@ -29,6 +29,7 @@ body{
   padding: 0;
   margin: 0;
   color: $White;
+  border: 0;
 }
 
 /*.fondo__precios{
@@ -89,12 +90,14 @@ img{
   height: 350px;
   margin: 0;
   padding: 0;
+  border: 0;
 }
 .fondo__montanas_color {
   background-color: $Onyx;
   height: 1000px;
   margin: 0;
   padding: 0;
+  border: 0;
 }
 .btn {
   border-radius: 2px;
